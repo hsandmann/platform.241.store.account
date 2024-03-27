@@ -1,7 +1,7 @@
 pipeline {
     agent any
-    tools {
-    }
+    // tools {
+    // }
     stages {
         stage('hello') {
             steps {
