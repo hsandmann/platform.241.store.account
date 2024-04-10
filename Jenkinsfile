@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Jenkins Account') {
             steps {
-                echo 'Jenkins Account'
+                echo 'Account interface'
             }
         }
         stage('Build') { 
