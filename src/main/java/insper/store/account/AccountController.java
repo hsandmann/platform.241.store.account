@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 
-@FeignClient(name = "account")
+@FeignClient(name = "account", url = "account:8080")
 public interface AccountController {
 
     @PostMapping("/accounts")
